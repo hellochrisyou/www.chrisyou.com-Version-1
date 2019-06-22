@@ -1,4 +1,6 @@
 # www.chrisyou.com
 My portfolio website
 
-![myimage-alt-tag](https://s3.amazonaws.com/chrisyou.com/CYouWebsiteV1.png)
+<p align="center">
+  <img src="https://chrisyou-backup-website.s3.amazonaws.com/assets/website-v1.png" width="400"/>
+  </p>
