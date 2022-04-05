@@ -1,8 +1,5 @@
-# www.original-version.chrisyou.com
+# www.original-version.hello.chrisyou.com
 <p align="center">
-  <img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/chrisyou.com/Untitled+Diagram.png" width="100%"/>
+  <img  src="https://storage.googleapis.com/static-images-703/original-version-website-canva.pdf" width="100%"/>
   <img src="https://chrisyou-backup-website.s3.amazonaws.com/assets/website-v1.png" width="5500" height="500"/>
   </p>
-<H1>DEMO</h1>
-<br/>
-<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/gif/website-gif-1.gif" width="100%"/>
