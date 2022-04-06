@@ -1,5 +1,4 @@
-<img  src="https://storage.googleapis.com/static-images-703/portfolio-v1.gif" width="100%"/>
-<video src="https://user-images.githubusercontent.com/28457425/161934687-a0162ff6-c402-4648-98c9-f7ad2abfc9e7.mp4" controls></video>
+<video src="https://user-images.githubusercontent.com/28457425/161934687-a0162ff6-c402-4648-98c9-f7ad2abfc9e7.mp4" autoplay loop controls></video>
 
 <!-- https://user-images.githubusercontent.com/28457425/161934687-a0162ff6-c402-4648-98c9-f7ad2abfc9e7.mp4 -->
 # www.original-version.hello.chrisyou.com
