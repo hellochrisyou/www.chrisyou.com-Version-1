@@ -1,4 +1,4 @@
-<video src="https://user-images.githubusercontent.com/28457425/161934687-a0162ff6-c402-4648-98c9-f7ad2abfc9e7.mp4" autoplay loop controls></video>
+<video  autoplay loop src="https://user-images.githubusercontent.com/28457425/161934687-a0162ff6-c402-4648-98c9-f7ad2abfc9e7.mp4" controls></video>
 
 <!-- https://user-images.githubusercontent.com/28457425/161934687-a0162ff6-c402-4648-98c9-f7ad2abfc9e7.mp4 -->
 # www.original-version.hello.chrisyou.com
