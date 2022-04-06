@@ -1,3 +1,8 @@
+# This repo has a video on its readme :p
+
+
+https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
+
 # www.original-version.hello.chrisyou.com
 <p align="center">
   <img  src="https://storage.googleapis.com/static-images-703/original-version-canva.png" width="100%"/>
