@@ -1,177 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-      <title>Chris You</title>
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"/>
-      <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet"/>
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-   </head>
-   <body>
-      <!-- Navigation -->
-      <nav class="nav navbar bg-secondary fixed-top" id="mainNav" role="navigation">
+
+<head>
+   <title>Chris You's Portfolio Website</title>
+   <!-- Required meta tags -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   <meta name="image"
+      content="https://storage.googleapis.com/static-images-703/original-portfolio-website-front-page.png">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet" />
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+   <!-- Navigation -->
+   <nav class="nav navbar bg-secondary fixed-top" id="mainNav" role="navigation">
+      <div class="container">
+         <div class="row">
+            <p class="navbar-brand text-center" id="navigation-header" style="margin: 0 auto">Chris You</p>
+         </div>
+         <div class="row" id="navigation-font">
+            <a class="col-xl col-lg col-md-4 col-sm-4 col-4 text-center" style="color:#d3d3d3" href="#section1">Home</a>
+            <a class="col-xl col-lg col-md-4 col-sm-4 col-4 text-center" style="color:#d3d3d3"
+               href="#section2">About</a>
+            <a class="col-xl col-lg col-md-4 col-sm-4 col-4 text-center" style="color:#d3d3d3"
+               href="#section3">Education</a>
+            <a class="col-xl col-lg col-md col-sm col text-center" style="color:#d3d3d3" href="#section4">Skills</a>
+            <a class="col-xl col-lg col-md col-sm col text-center" style="color:#d3d3d3" href="#section5">Portfolio</a>
+            <a class="col-xl col-lg col-md col-sm col text-center" style="color:#d3d3d3" href="#section6">Contact</a>
+         </div>
+      </div>
+   </nav>
+   <!--home-->
+   <div id="section1">
+      <!--image-->
+      <div class="row" id="beginning-margin">
+         <img class="text-center" id="profile-pic" style="margin: 0 auto" src="assets/me.gif" />
+      </div>
+      <!--Description-->
+      <div class="jumbotron jumbo-header">
+         <p class="about-title text-third text-center" style="margin: 0 auto"><strong>Software Developer</strong></p>
+      </div>
+      <p class="about-text text-primary text-justify col-xl-6 offset-xl-3" style="padding-bottom:160px"> Hi! I'm Chris.
+         I am a very passionate software developer based in Detroit, MI. Highly motivated to write clean and effective
+         code. I enjoy programming in Java, C#, C++. Feel free to contact me!</p>
+   </div>
+   </div><!-- End Item -->
+   <!--About Me-->
+   <div id="section2">
+      <div class="jumbotron text-center" style="margin: 0 auto; background-color:#212121; color:#d3d3d3">
          <div class="container">
-            <div class="row">
-               <p class="navbar-brand text-center" id="navigation-header" style="margin: 0 auto">Chris You</p>
-            </div>
-            <div class="row" id="navigation-font">
-               <a class="col-xl col-lg col-md-4 col-sm-4 col-4 text-center" style="color:#d3d3d3" href="#section1">Home</a>
-               <a class="col-xl col-lg col-md-4 col-sm-4 col-4 text-center" style="color:#d3d3d3" href="#section2">About</a>
-               <a class="col-xl col-lg col-md-4 col-sm-4 col-4 text-center" style="color:#d3d3d3" href="#section3">Education</a>
-               <a class="col-xl col-lg col-md col-sm col text-center" style="color:#d3d3d3" href="#section4">Skills</a>
-               <a class="col-xl col-lg col-md col-sm col text-center" style="color:#d3d3d3" href="#section5">Portfolio</a>
-               <a class="col-xl col-lg col-md col-sm col text-center" style="color:#d3d3d3" href="#section6">Contact</a>        
-            </div>
+            <h1 class="text-center" style="margin: 0 auto">About Me</h1>
+            <hr>
+            <p class="lead text-center" style="margin: 0 auto"><br>Software Developer and Musician</p>
          </div>
-      </nav>
-      <!--home-->				
-      <div id="section1">
-         <!--image-->
-         <div class="row" id="beginning-margin">
-            <img class="text-center" id="profile-pic" style="margin: 0 auto" src="assets/me.gif"/> 
-         </div>
-         <!--Description-->
-         <div class="jumbotron jumbo-header">
-            <p class="about-title text-third text-center" style="margin: 0 auto"><strong>Software Developer</strong></p>
-         </div>
-         <p class="about-text text-primary text-justify col-xl-6 offset-xl-3" style="padding-bottom:160px"> Hi! I'm Chris.  I am a very passionate software developer based in Detroit, MI.  Highly motivated to write clean and effective code.  I enjoy programming in Java, C#, C++.  Feel free to contact me!</p>
       </div>
-      </div><!-- End Item --> 
-      <!--About Me-->
-      <div id="section2">
-         <div class="jumbotron text-center" style="margin: 0 auto; background-color:#212121; color:#d3d3d3">
-            <div class="container">
-               <h1 class="text-center" style="margin: 0 auto">About Me</h1>
-               <hr>
-               <p class="lead text-center" style="margin: 0 auto"><br>Software Developer and Musician</p>
+      <div class="container-fluid" id="about-me-margin">
+         <div class="row" style="">
+            <img class="col-xl-2 col-lg-3 col-md-4 col-5 offset-xl-2 offset-md-0 col-sm-5 offset-sm-3 offset-3"
+               id="about-me-pic" src="assets/aboutme.jpg">
+            <div class="col-xl-7 col-lg-7 col-md-7 col">
+               <p class="text-primary col-xl text-left" style="font-size:20px" id="personal-details"><strong>Personal
+                     Details</strong></p>
+               <div class="row col-xl" style="height:20px">
+                  <p class="text-primary col-xl-2 col text-left" id="subject-font"><strong>Name:</strong></p>
+                  <p class="text-primary  col-xl-6 col text-right" id="reg-font">Chris You</p>
+               </div>
+               <div class="row col-xl" style="height:20px; margin-top:10px">
+                  <p class="text-primary col-xl-2 col text-left" id="subject-font"><strong>Phone:</strong></p>
+                  <p class="text-primary  col-xl-6 col text-right" id="reg-font">(703)517-0030</p>
+               </div>
+               <div class="row col-xl" style="height:20px; margin-top:10px">
+                  <p class="text-primary col-xl-2 col-sm col-3 text-left" id="subject-font"><strong>Email:</strong></p>
+                  <p class="text-primary  col-xl-6 col-lg col-md col-sm col text-right" id="reg-font">
+                     hellochrisyou@gmail.com</p>
+               </div>
+               <div class="row col-xl" style="height:20px; margin-top:10px">
+                  <p class="text-primary col-xl-2 col" id="subject-font"><strong>Country:</strong></p>
+                  <p class="text-primary  col-xl-6 col text-right" id="reg-font">United States</p>
+               </div>
             </div>
-         </div>
-         <div class="container-fluid" id="about-me-margin">
-            <div class="row"  style="">
-               <img class="col-xl-2 col-lg-3 col-md-4 col-5 offset-xl-2 offset-md-0 col-sm-5 offset-sm-3 offset-3" id="about-me-pic" src="assets/aboutme.jpg">						
-               <div class="col-xl-7 col-lg-7 col-md-7 col">
-                  <p class="text-primary col-xl text-left" style="font-size:20px" id="personal-details"><strong>Personal Details</strong></p>
-                  <div class="row col-xl" style="height:20px">
-                     <p class="text-primary col-xl-2 col text-left" id="subject-font"><strong>Name:</strong></p>
-                     <p class="text-primary  col-xl-6 col text-right" id="reg-font">Chris You</p>
-                  </div>
-                  <div class="row col-xl" style="height:20px; margin-top:10px">
-                     <p class="text-primary col-xl-2 col text-left" id="subject-font"><strong>Phone:</strong></p>
-                     <p class="text-primary  col-xl-6 col text-right" id="reg-font">(703)517-0030</p>
-                  </div>
-                  <div class="row col-xl" style="height:20px; margin-top:10px">
-                     <p class="text-primary col-xl-2 col-sm col-3 text-left" id="subject-font"><strong>Email:</strong></p>
-                     <p class="text-primary  col-xl-6 col-lg col-md col-sm col text-right" id="reg-font">hellochrisyou@gmail.com</p>
-                  </div>
-                  <div class="row col-xl" style="height:20px; margin-top:10px">
-                     <p class="text-primary col-xl-2 col" id="subject-font"><strong>Country:</strong></p>
-                     <p class="text-primary  col-xl-6 col text-right" id="reg-font">United States</p>
+            <!--Progress column-->
+            <div class="row text-primary col-xl-10 col-lg-11 col-md col-10 col offset-sm-0 offset-1"
+               style="margin-top:35px">
+               <!--Progress bar 1-->
+               <div class="col-xl col-lg col-md col-sm col offset-xl-2 offset-md-0 offset-sm-2">
+                  <p class="text-center">Programming</p>
+                  <div class="progress yellow">
+                     <span class="progress-left">
+                        <span class="progress-bar"></span>
+                     </span>
+                     <span class="progress-right">
+                        <span class="progress-bar"></span>
+                     </span>
+                     <div class="progress-value">75%</div>
                   </div>
                </div>
-               <!--Progress column-->
-               <div class="row text-primary col-xl-10 col-lg-11 col-md col-10 col offset-sm-0 offset-1" style="margin-top:35px">
-                  <!--Progress bar 1-->
-                  <div class="col-xl col-lg col-md col-sm col offset-xl-2 offset-md-0 offset-sm-2">
-                     <p class="text-center">Programming</p>
-                     <div class="progress yellow">
-                        <span class="progress-left">
+               <!--Progress bar 2-->
+               <div class="col-xl col-lg col-md col-sm">
+                  <p class="text-center">Algorithms</p>
+                  <div class="progress blue">
+                     <span class="progress-left">
                         <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
+                     </span>
+                     <span class="progress-right">
                         <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">75%</div>
-                     </div>
+                     </span>
+                     <div class="progress-value">90%</div>
                   </div>
-                  <!--Progress bar 2-->
-                  <div class="col-xl col-lg col-md col-sm">
-                     <p class="text-center">Algorithms</p>
-                     <div class="progress blue">
-                        <span class="progress-left">
+               </div>
+               <!--Progress bar 3-->
+               <div class="col-xl col-lg col-md col-sm offset-md-0 offset-sm-2">
+                  <p class="text-center">Data Structures</p>
+                  <div class="progress red">
+                     <span class="progress-left">
                         <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
+                     </span>
+                     <span class="progress-right">
                         <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">90%</div>
-                     </div>
-                  </div>
-                  <!--Progress bar 3-->
-                  <div class="col-xl col-lg col-md col-sm offset-md-0 offset-sm-2">
-                     <p class="text-center">Data Structures</p>
-                     <div class="progress red">
-                        <span class="progress-left">
-                        <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                        <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">75%</div>
-                     </div>
+                     </span>
+                     <div class="progress-value">75%</div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- End Item -->	
-      <!--Education-->			
-      <div id="section3">
-         <div class="jumbotron" style="margin-top:8%; background-color:#212121; color:#d3d3d3">
-            <div class="container">
-               <h1 class="display-3 text-center">Education</h1>
-               <hr>
-               <p class="lead text-center"><br></p>
-            </div>
-         </div>
-         <div class="container text-primary" style="padding-bottom:160px; margin-top:-3%">
-            <ul class="timeline">
-               <li>
-                  <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-                  <div class="timeline-panel">
-                     <div class="timeline-heading">
-                        <h4 class="timeline-title" id="timeline-subject-font">Wayne State University</h4>
-                        <h5  id="timeline-reg-font">Computer Science-Bachelor of Science (2017)</h5>
-                     </div>
-                     <div class="timeline-body d-none d-sm-block">
-                        <p><br><Strong>Computer Science</Strong> - Software Engineer, Operating Systems, Algorithms, Computer Science Theory, Software Architecture, Hardware Architecture and Organization<br><Strong>Mathematics</Strong> - Calculus 2, Probability and Statistics, Linear Algebra</p>
-                     </div>
-                  </div>
-               </li>
-               <li class="timeline-inverted">
-                  <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-                  <div class="timeline-panel">
-                     <div class="timeline-heading">
-                        <h4 class="timeline-title"  id="timeline-subject-font">Mannes College for Music</h4>
-                        <h5  id="timeline-reg-font">Clarinet-Master of Music (2012)</h5>
-                     </div>
-                     <div class="timeline-body d-none d-sm-block">
-                        <p><br><br><Strong>Music</Strong> - Ensembles, Private Lessons, Ensembles, Music Theory, Sight-Singing, Music History, Symphonic Literature<br><Strong>Teacher</Strong> - Steve Williamson (Chicago Symphony)</p>
-                     </div>
-                  </div>
-               </li>
-               <li>
-                  <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
-                  <div class="timeline-panel">
-                     <div class="timeline-heading">
-                        <h4 class="timeline-title"  id="timeline-subject-font">Cleveland Institute of Music<br>(Case Western University)</h4>
-                        <h5  id="timeline-reg-font">Clarinet-Bachelor of Music (2005)</h5>
-                     </div>
-                     <div class="timeline-body d-none d-sm-block">
-                        <p><br><Strong>Music</Strong> - Ensembles, Private Lessons, Conducting, Eurhythmics, Music Theory, Sight-Singing, Music History, Form and Analysis, Counterpoint, Symphonic Literature, Jazz and American Popular Music<br><Strong>General Education</Strong> Calculus, English, Computer Science, Psychology, Microeconomics<br><Strong>Teacher</Strong> - Dan Gilbert (Cleveland Orchestra)</p>
-                     </div>
-                  </div>
-               </li>
-            </ul>
+   </div>
+   <!-- End Item -->
+   <!--Education-->
+   <div id="section3">
+      <div class="jumbotron" style="margin-top:8%; background-color:#212121; color:#d3d3d3">
+         <div class="container">
+            <h1 class="display-3 text-center">Education</h1>
+            <hr>
+            <p class="lead text-center"><br></p>
          </div>
       </div>
-      <!-- End Item -->
-      <!--Skills-->
-      <div id="section4">
+      <div class="container text-primary" style="padding-bottom:160px; margin-top:-3%">
+         <ul class="timeline">
+            <li>
+               <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+               <div class="timeline-panel">
+                  <div class="timeline-heading">
+                     <h4 class="timeline-title" id="timeline-subject-font">Wayne State University</h4>
+                     <h5 id="timeline-reg-font">Computer Science-Bachelor of Science (2017)</h5>
+                  </div>
+                  <div class="timeline-body d-none d-sm-block">
+                     <p><br><Strong>Computer Science</Strong> - Software Engineer, Operating Systems, Algorithms,
+                        Computer Science Theory, Software Architecture, Hardware Architecture and
+                        Organization<br><Strong>Mathematics</Strong> - Calculus 2, Probability and Statistics, Linear
+                        Algebra</p>
+                  </div>
+               </div>
+            </li>
+            <li class="timeline-inverted">
+               <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+               <div class="timeline-panel">
+                  <div class="timeline-heading">
+                     <h4 class="timeline-title" id="timeline-subject-font">Mannes College for Music</h4>
+                     <h5 id="timeline-reg-font">Clarinet-Master of Music (2012)</h5>
+                  </div>
+                  <div class="timeline-body d-none d-sm-block">
+                     <p><br><br><Strong>Music</Strong> - Ensembles, Private Lessons, Ensembles, Music Theory,
+                        Sight-Singing, Music History, Symphonic Literature<br><Strong>Teacher</Strong> - Steve
+                        Williamson (Chicago Symphony)</p>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+               <div class="timeline-panel">
+                  <div class="timeline-heading">
+                     <h4 class="timeline-title" id="timeline-subject-font">Cleveland Institute of Music<br>(Case Western
+                        University)</h4>
+                     <h5 id="timeline-reg-font">Clarinet-Bachelor of Music (2005)</h5>
+                  </div>
+                  <div class="timeline-body d-none d-sm-block">
+                     <p><br><Strong>Music</Strong> - Ensembles, Private Lessons, Conducting, Eurhythmics, Music Theory,
+                        Sight-Singing, Music History, Form and Analysis, Counterpoint, Symphonic Literature, Jazz and
+                        American Popular Music<br><Strong>General Education</Strong> Calculus, English, Computer
+                        Science, Psychology, Microeconomics<br><Strong>Teacher</Strong> - Dan Gilbert (Cleveland
+                        Orchestra)</p>
+                  </div>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </div>
+   <!-- End Item -->
+   <!--Skills-->
+   <div id="section4">
       <div class="jumbotron" style="height:100px; margin-top:-5%;background-color:#212121; color:#d3d3d3">
          <div class="container">
             <h1 class="display-3 text-center">Skills</h1>
@@ -182,36 +206,51 @@
          <div id="piechart" id="pie"></div>
       </div>
       <div class="container" style="width:100%; margin-top:6%">
-         <p class="text-primary text-center" style="font-size:20px" style="margin: 0 auto" ><strong>Other Skills</strong></p>
+         <p class="text-primary text-center" style="font-size:20px" style="margin: 0 auto"><strong>Other Skills</strong>
+         </p>
          <div class="row">
          </div>
          <div class="row" style="height:20px">
-            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font"><strong>Languages:</strong></p>
+            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font">
+               <strong>Languages:</strong>
+            </p>
             <p class="text-primary  col-xl-5 col-md-9 col text-right" id="reg-font">SQL, C, Python, HTML, CSS, PHP</p>
          </div>
          <div class="row" style="height:20px; margin-top:10px">
-            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font"><strong>OS:</strong></p>
+            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font">
+               <strong>OS:</strong>
+            </p>
             <p class="text-primary  col-xl-5 col-md-9 col-sm col text-right" id="reg-font">Windows, Linux</p>
          </div>
          <div class="row" style="height:20px; margin-top:10px">
-            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font"><strong>Platforms:</strong></p>
-            <p class="text-primary  col-xl-5 col-md-9 col-sm col text-right" id="reg-font">Xamarin, MS Azure, Android Studio</p>
+            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font">
+               <strong>Platforms:</strong>
+            </p>
+            <p class="text-primary  col-xl-5 col-md-9 col-sm col text-right" id="reg-font">Xamarin, MS Azure, Android
+               Studio</p>
          </div>
          <div class="row" style="height:20px; margin-top:10px">
-            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font"><strong>VCS:</strong></p>
+            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font">
+               <strong>VCS:</strong>
+            </p>
             <p class="text-primary  col-xl-5 col-md-9 col-sm col text-right" id="reg-font">Github, TortoiseSVN</p>
          </div>
          <div class="row" style="height:20px; margin-top:10px">
-            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font"><strong>DBMS:</strong></p>
+            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font">
+               <strong>DBMS:</strong>
+            </p>
             <p class="text-primary  col-xl-5 col-md-9 col-sm col text-right" id="reg-font">SQLite, SQL Server</p>
          </div>
          <div class="row" style="height:20px; margin-top:10px">
-            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font"><strong>Frameworks:</strong></p>
-            <p class="text-primary  col-xl-5 col-md-9 col-sm col text-right" id="reg-font">asp.net, Spring, Bootstrap</p>
+            <p class="text-primary col-md-1 col offset-xl-3 offset-md-1 text-left" id="subject-font">
+               <strong>Frameworks:</strong>
+            </p>
+            <p class="text-primary  col-xl-5 col-md-9 col-sm col text-right" id="reg-font">asp.net, Spring, Bootstrap
+            </p>
          </div>
       </div>
-      <!-- End Item -->				
-      <!--Portfolio-->			
+      <!-- End Item -->
+      <!--Portfolio-->
       <div id="section5">
          <div class="jumbotron" style="margin-top:5%; background-color:#212121; color:#d3d3d3">
             <div class="container">
@@ -219,8 +258,9 @@
                <hr>
                <p class="lead text-center"><br>A collection of my major projects.</p>
                <p class="text-center"> View all projects on Github.</p>
-               <p class="text-center"><a class="btn btn-outline-light btn-secondary text-center rounded-circle" href="https://github.com/hellochrisyou">
-                  <i class="fa fa-fw fa-github icon-margin"></i>
+               <p class="text-center"><a class="btn btn-outline-light btn-secondary text-center rounded-circle"
+                     href="https://github.com/hellochrisyou">
+                     <i class="fa fa-fw fa-github icon-margin"></i>
                   </a>
                </p>
             </div>
@@ -230,7 +270,7 @@
             <div class="col-md-4 col-sm-10 col-10 project-spacing">
                <div class="card-sm">
                   <div class="upper-card skyblue-card">
-                     <img class="card-img" id="indexr-img" src="assets/TechnoBabel.png" height="303" width="150"/>
+                     <img class="card-img" id="indexr-img" src="assets/TechnoBabel.png" height="303" width="150" />
                   </div>
                   <div class="lower-card">
                      <div class="container" style="width: 90%;">
@@ -239,7 +279,11 @@
                               <strong>TechnoBabel</strong>
                            </p>
                            <p class="about-card col-md-12 text-justify text-primary">
-                              Mobile application which utilizes C# in Xamarin (Front-end Cross- Platform integrated in Visual Studios) via Asp.net Web API (Back-end Server) with Entity Framework (MVC) to interact with Microsoft Azure (Cloud-based platform) to make queries with the database (SQL Server).  It utilizes the voice recorder to recognize and retrieve terminology from the database, populating the results in the application.
+                              Mobile application which utilizes C# in Xamarin (Front-end Cross- Platform integrated in
+                              Visual Studios) via Asp.net Web API (Back-end Server) with Entity Framework (MVC) to
+                              interact with Microsoft Azure (Cloud-based platform) to make queries with the database
+                              (SQL Server). It utilizes the voice recorder to recognize and retrieve terminology from
+                              the database, populating the results in the application.
                            </p>
                         </div>
                         <div class="row">
@@ -248,13 +292,15 @@
                               <span class="skill skill-magenta text-primary">Xamarin</span>
                               <span class="skill skill-magenta text-primary">asp.net</span>
                               <span class="skill skill-magenta text-primary">Microsoft Azure</span>
-                              <span class="skill skill-magenta text-primary">SQL Server</span>	
+                              <span class="skill skill-magenta text-primary">SQL Server</span>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="card-footer text-muted text-center" style="background-color:#424242;border-top:1px solid #424242">
-                     <a href="https://github.com/hellochrisyou/technobabelgit" class="card-link font-weight-bold" style="color:#2d89ef">View on Github</a>
+                  <div class="card-footer text-muted text-center"
+                     style="background-color:#424242;border-top:1px solid #424242">
+                     <a href="https://github.com/hellochrisyou/technobabelgit" class="card-link font-weight-bold"
+                        style="color:#2d89ef">View on Github</a>
                   </div>
                </div>
             </div>
@@ -262,16 +308,18 @@
             <div class="col-md-4 col-sm-10 col-10 project-spacing">
                <div class="card-sm">
                   <div class="upper-card red-card">
-                     <img class="card-img" id="indexr-img" src="assets/BlackJack.PNG" height="50" width="30"/>
+                     <img class="card-img" id="indexr-img" src="assets/BlackJack.PNG" height="50" width="30" />
                   </div>
                   <div class="lower-card">
                      <div class="container" style="width: 90%;">
                         <div class="row content-card">
-                           <p class="title-card col-md-12 text-primary text-center font-head"  style="margin-top:20px">
+                           <p class="title-card col-md-12 text-primary text-center font-head" style="margin-top:20px">
                               <strong>Blackjack Mobile</strong>
                            </p>
                            <p class="about-card col-md-12 text-justify text-primary">
-                              Developed an Android mobile game in Android Studio(Java) that also connects to SQLite (DBMS) using PHP (Server-side Scripting Language) in Apache (Local Server Software) to interact with a database. 
+                              Developed an Android mobile game in Android Studio(Java) that also connects to SQLite
+                              (DBMS) using PHP (Server-side Scripting Language) in Apache (Local Server Software) to
+                              interact with a database.
                            </p>
                         </div>
                         <div class="row">
@@ -284,8 +332,10 @@
                         </div>
                      </div>
                   </div>
-                  <div class="card-footer text-muted text-center" style="background-color:#424242;border-top:1px solid #424242">
-                     <a href="https://github.com/hellochrisyou/BlackJack-Android" class="card-link font-weight-bold" style="color:#2d89ef">View on Github</a>
+                  <div class="card-footer text-muted text-center"
+                     style="background-color:#424242;border-top:1px solid #424242">
+                     <a href="https://github.com/hellochrisyou/BlackJack-Android" class="card-link font-weight-bold"
+                        style="color:#2d89ef">View on Github</a>
                   </div>
                </div>
             </div>
@@ -295,7 +345,7 @@
             <div class="col-md-4 col-sm-10 col-10 project-spacing">
                <div class="card-sm">
                   <div class="upper-card aqua-card">
-                     <img class="card-img" id="todo-img" src="assets/todo.jpg"/>
+                     <img class="card-img" id="todo-img" src="assets/todo.jpg" />
                   </div>
                   <div class="lower-card">
                      <div class="container" style="width: 90%;">
@@ -304,21 +354,24 @@
                               <strong>To-Do App</strong>
                            </p>
                            <p class="about-card col-md-12 text-justify text-primary">
-                              Client Server Application that connects to MySQL (DBMS) using PHP (Server-side Scripting Language) in Apache (Local Server Software) to interact with a database.                                                                           
+                              Client Server Application that connects to MySQL (DBMS) using PHP (Server-side Scripting
+                              Language) in Apache (Local Server Software) to interact with a database.
                            </p>
                         </div>
                         <div class="row">
                            <div class="skill-section col-md-12 text-center">
                               <span class="skill skill-magenta text-primary">Windows</span>
                               <span class="skill skill-magenta text-primary">Apache</span>
-                              <span class="skill skill-magenta text-primary">MySQL</span>                    
+                              <span class="skill skill-magenta text-primary">MySQL</span>
                               <span class="skill skill-magenta text-primary">PHP</span>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="card-footer text-muted text-center" style="background-color:#424242;border-top:1px solid #424242">
-                     <a href="https://github.com/hellochrisyou/To-do-App-PHP-SQL" class="card-link font-weight-bold" style="color:#2d89ef">View on Github</a>
+                  <div class="card-footer text-muted text-center"
+                     style="background-color:#424242;border-top:1px solid #424242">
+                     <a href="https://github.com/hellochrisyou/To-do-App-PHP-SQL" class="card-link font-weight-bold"
+                        style="color:#2d89ef">View on Github</a>
                   </div>
                </div>
             </div>
@@ -326,7 +379,7 @@
             <div class="col-md-4 col-sm-10 col-10 project-spacing">
                <div class="card-sm">
                   <div class="upper-card dark-card">
-                     <img class="card-img-smaller" id="s3-img" src="assets/s3.png" height="200" width="200"/>
+                     <img class="card-img-smaller" id="s3-img" src="assets/s3.png" height="200" width="200" />
                   </div>
                   <div class="lower-card">
                      <div class="container" style="width: 90%;">
@@ -335,7 +388,9 @@
                               <strong>Secure S3 Filesystem</strong>
                            </p>
                            <p class="about-card col-md-12 text-justify text-primary">
-                              Developed a secure file system based on S3FS on Linux with C/C++. Encrypts/Decrypts files using the RC4 encryption algorithm with MD5 checksum (extrapolated and integrated from OpenSSL) upon uploading and downloading to and from Amazon Web Services (CloudJ). .
+                              Developed a secure file system based on S3FS on Linux with C/C++. Encrypts/Decrypts files
+                              using the RC4 encryption algorithm with MD5 checksum (extrapolated and integrated from
+                              OpenSSL) upon uploading and downloading to and from Amazon Web Services (CloudJ). .
                            </p>
                         </div>
                         <div class="row">
@@ -351,8 +406,10 @@
                         </div>
                      </div>
                   </div>
-                  <div class="card-footer text-muted text-center" style="background-color:#424242;border-top:1px solid #424242">
-                     <a href="https://github.com/hellochrisyou/S3FS-OpenSSL-RC4-MD5" class="card-link font-weight-bold" style="color:#2d89ef">View on Github</a>
+                  <div class="card-footer text-muted text-center"
+                     style="background-color:#424242;border-top:1px solid #424242">
+                     <a href="https://github.com/hellochrisyou/S3FS-OpenSSL-RC4-MD5" class="card-link font-weight-bold"
+                        style="color:#2d89ef">View on Github</a>
                   </div>
                </div>
             </div>
@@ -361,16 +418,19 @@
                <div class="col-md-8 col-sm-10 col-10">
                   <div class="card-lg">
                      <div class="mid-card blue-card" id="vehicle-card">
-                        <img class="card-img" id="xgds-img" src="assets/VehicleManager.png" height="10"/>
+                        <img class="card-img" id="xgds-img" src="assets/VehicleManager.png" height="10" />
                      </div>
                      <div class="lower-card">
                         <div class="container" style="width: 85%;">
                            <div class="row content-card">
-                              <p class="title-card col-md-12 text-primary text-center font-weight-bold font-head" style="margin-top:20px">
-                                 <strong>Vehicle Manager Website<br</strong>
+                              <p class="title-card col-md-12 text-primary text-center font-weight-bold font-head"
+                                 style="margin-top:20px">
+                                 <strong>Vehicle Manager Website<br< /strong>
                               </p>
                               <p class="about-card text-justify text-primary col">
-                                 <br>Forward and Reverse Engineer an existing database (MySQL) from VehicleManager website by incorporating ubiquitous data integration, cloud computing (Cpanel), and data mining using a content management system (Joomla/Rocket Theme).
+                                 <br>Forward and Reverse Engineer an existing database (MySQL) from VehicleManager
+                                 website by incorporating ubiquitous data integration, cloud computing (Cpanel), and
+                                 data mining using a content management system (Joomla/Rocket Theme).
                               </p>
                            </div>
                            <div class="row">
@@ -387,7 +447,7 @@
             </div>
          </div>
       </div>
-      <!--End of Item-->			
+      <!--End of Item-->
       <!--Contact-->
       <div id="section6">
          <!-- Footer -->
@@ -398,36 +458,44 @@
                   <div class="col-md-4 mb-5 col-lg-4" style="">
                      <h4 class="text-uppercase mb-4 text-secondary"><u>Get in touch</u></h4>
                      <div class="col-lg col-md col-sm offset-lg-1 offset-md-1 offset-sm-3">
-                        <p class="footer-contact text-primary" id="footer-margin-contact"><i class="fa fa-phone"></i> 703-517-0030</p>
-                        <p class="footer-contact text-primary" id="footer-margin-contact" href="mailto:hellochrisyou@gmail.com" target="_blank"><i class="fa fa-envelope"></i>hellochrisyou@gmail.com</p>
+                        <p class="footer-contact text-primary" id="footer-margin-contact"><i class="fa fa-phone"></i>
+                           703-517-0030</p>
+                        <p class="footer-contact text-primary" id="footer-margin-contact"
+                           href="mailto:hellochrisyou@gmail.com" target="_blank"><i
+                              class="fa fa-envelope"></i>hellochrisyou@gmail.com</p>
                      </div>
                   </div>
                   <div class="col-lg-4 col-md" style="">
                      <h4 class="text-uppercase col-lg text-secondary text-center"><u>Social Media</u></h4>
                      <ul class="list-inline mb-0 footer-social">
                         <li class="list-inline-item">
-                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle" href="https://www.facebook.com/chris.you.3194">
-                           <i class="fa fa-fw fa-facebook icon-margin"></i>
+                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle"
+                              href="https://www.facebook.com/chris.you.3194">
+                              <i class="fa fa-fw fa-facebook icon-margin"></i>
                            </a>
                         </li>
                         <li class="list-inline-item">
-                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle" href="https://plus.google.com/113968878634337891868">
-                           <i class="fa fa-fw fa-google-plus icon-margin"></i>
+                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle"
+                              href="https://plus.google.com/113968878634337891868">
+                              <i class="fa fa-fw fa-google-plus icon-margin"></i>
                            </a>
                         </li>
                         <li class="list-inline-item">
-                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle" href="https://twitter.com/hellochrisyou">
-                           <i class="fa fa-fw fa-twitter icon-margin"></i>
+                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle"
+                              href="https://twitter.com/hellochrisyou">
+                              <i class="fa fa-fw fa-twitter icon-margin"></i>
                            </a>
                         </li>
                         <li class="list-inline-item">
-                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle" href="https://www.linkedin.com/in/chris-you-8227b610/">
-                           <i class="fa fa-fw fa-linkedin icon-margin"></i>
+                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle"
+                              href="https://www.linkedin.com/in/chris-you-8227b610/">
+                              <i class="fa fa-fw fa-linkedin icon-margin"></i>
                            </a>
                         </li>
                         <li class="list-inline-item">
-                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle" href="https://www.github.com/hellochrisyou">
-                           <i class="fa fa-fw fa-github icon-margin"></i>
+                           <a class="btn btn-outline-light btn-secondary text-center rounded-circle"
+                              href="https://www.github.com/hellochrisyou">
+                              <i class="fa fa-fw fa-github icon-margin"></i>
                            </a>
                         </li>
                      </ul>
@@ -452,16 +520,20 @@
          </footer>
       </div>
       <!--End of Item-->
-	  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	<script src="javascript.js"></script>
-	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-	<script type="text/javascript">
-	google.charts.load('current', {'packages':['corechart']});
-	google.charts.setOnLoadCallback(drawChart);</script>
-   </body>
+      <!-- jQuery first, then Tether, then Bootstrap JS. -->
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+         integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+         crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+         crossorigin="anonymous"></script>
+      <script src="javascript.js"></script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+         google.charts.load('current', { 'packages': ['corechart'] });
+         google.charts.setOnLoadCallback(drawChart);</script>
+</body>
+
 </html>
-
-
