@@ -1,7 +1,3 @@
-<video controls autoplay>
-  <source src="https://user-images.githubusercontent.com/28457425/161934687-a0162ff6-c402-4648-98c9-f7ad2abfc9e7.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 https://user-images.githubusercontent.com/28457425/161934687-a0162ff6-c402-4648-98c9-f7ad2abfc9e7.mp4
 # www.original-version.hello.chrisyou.com
 <p align="center">
