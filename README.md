@@ -1,4 +1,4 @@
-<a href="https://www.original-version.chrisyou.com"><h1>&#8594; Click here to visit the Website</h1></a>
+<a href="http://www.original-version.chrisyou.com"><h1>&#8594; Click here to visit the Website</h1></a>
 <h3>&#9888; Video Preview available at bottom of this page &#9888;</h3>
 <p align="center">
   <img  src="https://storage.googleapis.com/static-images-703/original-version-canva.png" width="100%"/>
